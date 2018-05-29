@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana !important;  
+}
+
+html{
+    background: #fff;  
+}
+
+.limitHome {
+    height: 100%;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.limitSugestao {
+    height: 450px;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sugestao{
+    height: 450px;
+    border-right: 1px solid #ccc;
+    margin-left: -20px;
+}
+
+#sugestaoAvalia{
+    height: 450px;
+    margin-left: -20px;
+}
+
+.boxBorda{
+    height: 450px;
+    border-right: 1px solid #ccc
+}
+
+.top{
+    margin-top: 40px;
+}
+
+#tituloHome{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+#barraMenuHome{
+    width: 100%;
+    height: 35px;
+    background: #f1f1f1;
+    border-top: 3px solid #999999;
+    font-size: 14px;
+    color: grey;
+}
+
+#barraMenuHome a{
+    text-decoration: none;
+    color: grey;
+}
+
+#barraMenuHome a:hover{
+    font-weight: bold;
+}
+
+#barraMenuHome ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#barraMenuHome li{
+    float: left;
+    text-align: center;
+    padding: 8px;
+}
+
+.conteudo{
+    margin-top: 20px;
+}
+
+.conteudo select{
+    width: 292px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    color: gray;
+}
+
+.sT{
+   font-size: 16px; 
+}
+
+.conteudo .botao{
+    background: #5cb85c;
+    color: #fff;
+    height: 30px;
+    width: 100%;    
+    border: 0px
+}
+
+.botaoVerde{
+    background: #5cb85c;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    border: 0px;    
+}
+
+.botaoCinza{
+    background: #999;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    border: 0px;  
+    margin-top: 5px;  
+}
+
+.botaoVermelho{
+    background: #d9534f;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    margin-top: 5px;    
+}
+
+.perigo{
+	background: #d9534f;
+    color: #fff;
+    height: 30px;
+    width: 40%;
+    border: 0px;
+    margin-top: 5px;
+}
+
+.pPerigo{
+	background: #5cb85c;
+    color: #fff;
+    height: 30px;
+    width: 40%;
+    border: 0px;
+    margin-top: 5px;
+}
+
+.alerta{
+	background: #e68a00;
+    color: #fff;
+    height: 30px;
+    width: 40%;
+    border: 0px;
+    margin-top: 5px;
+}
+
+
+.coneudo input textarea{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #cccccc;
+}
+
+.conteudo input{
+    width: 100%;
+    height: 28px;
+    border: 1px solid #cccccc;
+}
+
+.conteudo select{
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+.conteudo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo li{
+    margin-bottom: 12px;
+}
+
+.sugestao{
+	height: 300px;
+}
+
+.conteudoCadastro{
+    margin-top: 20px;
+}
+
+.conteudoCadastro .sT{
+   font-size: 16px; 
+}
+
+.conteudoCadastro .botao{
+    background: #5cb85c;
+    color: #fff;
+    height: 34px;
+    width: 100%;
+    
+}
+
+.conteudoCadastro input{
+    width: 292px;
+    height: 28px;
+    border: 1px solid #cccccc;
+}
+
+.conteudoCadastro ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudoCadastro li{
+    margin-bottom: 12px;
+}
+
+.menuSugestoes{
+    margin-top: 10px;
+    margin-left: -22px;
+}
+
+.menuSugestoes .botao{
+    background: #5cb85c;
+    color: #fff;
+    height: 28px;
+    border: 1px solid #cccccc;
+    width: 150px;
+    height: 30px;
+    
+}
+
+.menuSugestoes select{
+    border: 1px solid #cccccc;
+    width: 210px;
+    height: 30px;    
+}
+
+.bOk{
+	height: 30px;
+	width: 30px;
+	background: #999;
+	color: #fff;
+	border: 0;
+}
+
+.tPopulares{
+    font-size: 20px;
+    width: 30px;
+}
+
+.subPopulares{
+    font-size: 16px;
+    color: #23527b;
+    white-space: nowrap; 
+    width: 20em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pSugestao{
+    font-size: 12px;
+    white-space: nowrap; 
+    width: 24em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pData{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.pVerMais a {
+    text-decoration: none;
+    color: #999;
+}
+
+.pVerMais button {
+    border: 0;
+    background: #FFF;
+}
+
+
+.vSugestao{
+	margin-top: 20px;
+}
+
+.titulo{
+	font-size: 16px;
+    color: #23527b;
+}
+
+.lSugestao{
+	font-size: 12px;
+	
+}
+
+.boxSugestao{
+	margin-left: -64px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	border-sizing: border-box;
+	height: 60px;
+	
+}
+
+.vsTitulo{
+	font-size: 16px;
+    color: #23527b;
+    margin-bottom: 20px;
+}
+
+.vsSugestao{
+	font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.vsAcao input{
+	width: 100%;
+    height: 100px;
+    border: 1px solid #cccccc;
+}
+
+.vsAcao textarea{
+	width: 100%;
+    height: 100px;
+    border: 1px solid #cccccc;
+}
+
+.vsAcao button{
+	background: #5cb85c;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+
+.vsUsuario{
+	font-size: 16px;
+    color: #23527b;
+}
+
+.feedback{
+	width: 100%;
+    height: 120px;
+    border: 1px solid #cccccc;	
+}
+
+#oportunidadesAltas{
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+
+@media (max-width: 990px){
+    
+}
